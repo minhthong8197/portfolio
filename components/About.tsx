@@ -7,12 +7,7 @@ const About = () => {
       <h2 className="text-3xl font-bold text-center mb-12">About Me</h2>
       <div className="flex flex-col md:flex-row items-center gap-12">
         <div className="w-48 h-48 md:w-60 md:h-60 relative flex-shrink-0">
-          <Image
-            src="/avatar.jpg" // <-- THAY BẰNG ẢNH CỦA BẠN
-            alt="Stephen Nguyen"
-            fill
-            className="rounded-full object-cover"
-          />
+          <Image src="/avatar.jpg" alt="Stephen Nguyen" fill className="rounded-full object-cover" />
         </div>
         <div className="text-lg text-gray-700 space-y-4 text-center md:text-left">
           <p>

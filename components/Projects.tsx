@@ -6,16 +6,16 @@ const projects: {
   name: string;
   description: string;
   tags: string[];
-  image: string; // Đường dẫn đến ảnh dự án
-  liveUrl?: string; // Link đến bản demo trực tuyến (nếu có)
-  githubUrl?: string; // Link đến mã nguồn trên GitHub (nếu có)
+  image: string;
+  liveUrl?: string;
+  githubUrl?: string;
 }[] = [
   {
     name: "Steevy Indie",
     description:
       "Independently managed the entire product lifecycle, from initial concept of a relaxing puzzle game to a live application with 90+ puzzles. I built a custom SVG puzzle-generation tool and leveraged AI for development assistance and content creation. The project was deployed on Cloudflare Pages, with a strong focus on SEO and user analytics integration.",
     tags: ["Next.js", "React", "Tailwind CSS", "AI"],
-    image: "/project-steevy.jpg", // <-- THAY ẢNH DỰ ÁN
+    image: "/project-steevy.jpg",
     liveUrl: "https://steevyindie.com",
   },
   {
@@ -23,7 +23,7 @@ const projects: {
     description:
       "A specialized tool for the Hattrick gaming community. The core challenge was building a modern middleware in Deno to transform a legacy SOAP/XML API into a clean, usable data source. The frontend, built with Fresh/Preact and various UI libraries, served as an R&D project to master new technologies and advanced data visualization.",
     tags: ["Deno", "Fresh", "Preact", "Tailwind CSS", "DigitalOcean"],
-    image: "/project-hteco.jpg", // <-- THAY ẢNH DỰ ÁN
+    image: "/project-hteco.jpg",
     liveUrl: "https://hteco.net",
   },
   {
@@ -31,16 +31,14 @@ const projects: {
     description:
       "Co-architected and developed the foundational microservices codebase for a large-scale Hospital Information System. I led the development of the critical Authentication & Authorization module. This robust and scalable architecture became the successful blueprint for subsequent major company projects, including school management and e-commerce platforms.",
     tags: ["Microservices", "NestJS", "React", "Team Leadership", "System Design"],
-    image: "/project-his-architecture.jpg", // <-- Ảnh sơ đồ kiến trúc
-    // Không có liveUrl và githubUrl
+    image: "/project-his-architecture.jpg",
   },
   {
     name: "E-commerce Cross-platform App",
     description:
       "As the sole developer, I spearheaded the creation of a universal e-commerce application. By architecting a monorepo with Tamagui and Solito, the project achieved maximum code sharing between web (Next.js) and mobile (React Native/Expo), significantly accelerating development time and ensuring brand consistency across platforms.",
     tags: ["React Native", "Next.js", "Tamagui", "Monorepo", "Code Sharing"],
-    image: "/project-monorepo-structure.jpg", // <-- Ảnh sơ đồ monorepo
-    // Không có liveUrl và githubUrl
+    image: "/project-monorepo-structure.jpg",
   },
 ];
 

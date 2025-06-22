@@ -9,7 +9,7 @@ const Hero = () => {
       <p className="mt-6 max-w-2xl text-gray-500">Developing robust, end-to-end web applications with a focus on clean architecture and high-quality code.</p>
       <div className="mt-8 flex flex-wrap justify-center gap-4">
         <a
-          href="https://www.linkedin.com/in/thong-stephen-nguyen/" // <-- THAY LINK LINKEDIN CỦA BẠN
+          href="https://www.linkedin.com/in/thong-stephen-nguyen/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
