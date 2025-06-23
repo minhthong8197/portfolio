@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Stephen Nguyen's Personal Portfolio
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
-First, run the development server:
+This repository contains the source code for my personal portfolio website, built to showcase my skills, projects, and professional experience as a Full-stack Developer.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### ✨ [Visit the Live Site](https://portfolio.steevyindie.com) ✨
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Portfolio Screenshot](./public/portfolio-screenshot.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 About The Project
 
-## Learn More
+This portfolio is a single-page application designed with a clean, minimalist, and responsive interface. It serves not only as a gallery of my work but also as a practical demonstration of my abilities in modern web development, particularly with the Next.js App Router and Tailwind CSS.
 
-To learn more about Next.js, take a look at the following resources:
+## 🌟 Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   **Hero Section:** A welcoming introduction with clear calls-to-action.
+-   **About Me:** A brief personal and professional summary.
+-   **Skills Showcase:** A categorized overview of my technical skills.
+-   **Featured Projects:** A detailed look at my personal and professional work, including links to live sites and case studies for private projects.
+-   **Experience Timeline:** A summary of my professional journey.
+-   **Fully Responsive:** A seamless experience across all devices, from mobile phones to desktops.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+This project is built with a cutting-edge, high-performance tech stack:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-   **Framework:** [Next.js 15](https://nextjs.org/) (with App Router)
+-   **Language:** [TypeScript](https://www.typescriptlang.org/)
+-   **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+-   **Icons:** [Lucide React](https://lucide.dev/)
+-   **Deployment:** [Vercel](https://vercel.com/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚙️ Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+This project was developed and tested with the versions below. While it may work with other versions, compatibility is not guaranteed.
+
+-   **Node.js:** `20.19.1`
+-   **npm:** `10.8.2`
+
+### Installation
+
+1.  Clone the repository:
+    ```sh
+    git clone https://github.com/minhthong8197/portfolio.git
+    ```
+2.  Navigate to the project directory:
+    ```sh
+    cd portfolio
+    ```
+3.  Install NPM packages:
+    ```sh
+    npm install
+    ```
+4.  Run the development server:
+    ```sh
+    npm run dev
+    ```
+5.  Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 🌐 Deployment
+
+This project is deployed on **Vercel**, connected directly to the `main` branch of this repository. Every push to `main` triggers an automatic build and deployment, ensuring the live site is always up-to-date with the latest changes (CI/CD).
+
+## 📄 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## 📫 Contact
+
+Feel free to connect with me!
+
+-   **LinkedIn:** [https://www.linkedin.com/in/thong-stephen-nguyen/](https://www.linkedin.com/in/thong-stephen-nguyen/)
+-   **GitHub:** [https://github.com/minhthong8197](https://github.com/minhthong8197)
