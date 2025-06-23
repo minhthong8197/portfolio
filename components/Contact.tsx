@@ -4,8 +4,8 @@ import { Linkedin } from "lucide-react";
 const Contact = () => {
   return (
     <section id="contact" className="w-full max-w-4xl py-24 text-center">
-      <h2 className="text-4xl font-bold mb-4">Let's Connect</h2>
-      <p className="text-lg text-gray-600 mb-8">I'm currently open to new opportunities. Feel free to connect with me on LinkedIn.</p>
+      <h2 className="text-4xl font-bold mb-4">{`Let's Connect`}</h2>
+      <p className="text-lg text-gray-600 mb-8">{`I'm currently open to new opportunities. Feel free to connect with me on LinkedIn.`}</p>
       <a
         href="https://www.linkedin.com/in/thong-stephen-nguyen/"
         target="_blank"
