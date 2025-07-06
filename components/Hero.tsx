@@ -1,4 +1,4 @@
-// app/components/Hero.tsx
+// components/Hero.tsx
 import { Linkedin, Github } from "lucide-react";
 
 const Hero = () => {

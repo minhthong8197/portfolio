@@ -1,4 +1,4 @@
-// app/components/Experience.tsx
+// components/Experience.tsx
 import { CheckCircle2 } from "lucide-react";
 
 const experience = [

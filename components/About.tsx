@@ -1,4 +1,4 @@
-// app/components/About.tsx
+// components/About.tsx
 import Image from "next/image";
 
 const About = () => {

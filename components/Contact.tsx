@@ -1,4 +1,4 @@
-// app/components/Contact.tsx
+// components/Contact.tsx
 import { Linkedin } from "lucide-react";
 
 const Contact = () => {

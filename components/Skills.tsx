@@ -1,4 +1,4 @@
-// app/components/Skills.tsx
+// components/Skills.tsx
 import { Code, Database, Server, Settings } from "lucide-react";
 
 const skills = {
