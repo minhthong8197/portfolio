@@ -7,6 +7,7 @@ export const projects: {
   name: string;
   description: string;
   tags: string[];
+  displayTags: string[];
   imageCard: string;
   imageStory?: string;
   liveUrl?: string;
@@ -21,7 +22,8 @@ export const projects: {
     storyTitle: "Steevy Indie: A Solo Founder's Journey in Creative Coding & AI",
     description:
       "Independently managed the entire product lifecycle, from initial concept of a relaxing puzzle game to a live application with 90+ puzzles. I built a custom SVG puzzle-generation tool and leveraged AI for development assistance and content creation. The project was deployed on Cloudflare Pages, with a strong focus on SEO and user analytics integration.",
-    tags: ["Next.js", "React", "Tailwind CSS", "AI"],
+    tags: ["Next.js", "React", "Tailwind CSS", "Vibe Coding", "SEO", "UI/UX Design", "Framer Motion", "SVG", "Web Audio API", "Deployment"],
+    displayTags: ["Next.js", "React", "Tailwind CSS", "AI"],
     imageCard: "/project-steevy.jpg",
     imageStory: "/project-steevy-story.jpg",
     liveUrl: "https://steevyindie.com",
@@ -33,7 +35,24 @@ export const projects: {
     storyTitle: "HTEco: A Data Toolkit for Hattrick, Evolved Over Two Years",
     description:
       "A specialized tool for the Hattrick gaming community. The core challenge was building a modern middleware in Deno to transform a legacy SOAP/XML API into a clean, usable data source. The frontend, built with Fresh/Preact and various UI libraries, served as an R&D project to master new technologies and advanced data visualization.",
-    tags: ["Deno", "Fresh", "Preact", "Tailwind CSS", "DigitalOcean"],
+    tags: [
+      "Deno",
+      "Fresh",
+      "Preact",
+      "NestJS",
+      "React",
+      "Tailwind CSS",
+      "API Integration",
+      "SOAP",
+      "XML",
+      "OAuth",
+      "Data Transformation",
+      "Data Visualization",
+      "DigitalOcean",
+      "Nginx",
+      "Re-architecture",
+    ],
+    displayTags: ["Deno", "Fresh", "Preact", "Tailwind CSS", "DigitalOcean"],
     imageCard: "/project-hteco.jpg",
     imageStory: "/project-hteco-story.jpg",
     liveUrl: "https://hteco.net",
@@ -45,7 +64,22 @@ export const projects: {
     storyTitle: "HIS: Architecting a Scalable Microservices System for Healthcare",
     description:
       "Co-architected and developed the foundational microservices codebase for a large-scale Hospital Information System. I led the development of the critical Authentication & Authorization module. This robust and scalable architecture became the successful blueprint for subsequent major company projects, including school management and e-commerce platforms.",
-    tags: ["Microservices", "NestJS", "React", "Team Leadership", "System Design"],
+    tags: [
+      "Microservices",
+      "System Design",
+      "Architecture",
+      "NestJS",
+      "React",
+      "GraphQL",
+      "MongoDB",
+      "TypeScript",
+      "Team Leadership",
+      "Database Design",
+      "Docker",
+      "GitLab CI/CD",
+      "Containerization",
+    ],
+    displayTags: ["Microservices", "NestJS", "GraphQL", "React", "Team Leadership"],
     imageCard: "/project-his-architecture.jpg",
     imageStory: "/project-his-story.jpg",
     seoDescription:
@@ -56,7 +90,19 @@ export const projects: {
     slug: "",
     description:
       "As the sole developer, I spearheaded the creation of a universal e-commerce application. By architecting a monorepo with Tamagui and Solito, the project achieved maximum code sharing between web (Next.js) and mobile (React Native/Expo), significantly accelerating development time and ensuring brand consistency across platforms.",
-    tags: ["React Native", "Next.js", "Tamagui", "Monorepo", "Code Sharing"],
+    tags: [
+      "React Native",
+      "Next.js",
+      "Tamagui",
+      "Monorepo",
+      "Code Sharing",
+      "Tailwind CSS",
+      "Cross-platform Development",
+      "E-commerce Development",
+      "Mobile Development",
+      "Web Development",
+    ],
+    displayTags: ["React Native", "Next.js", "Tamagui", "Monorepo", "Code Sharing"],
     imageCard: "/project-monorepo-structure.jpg",
     imageStory: "/project-monorepo-structure.jpg",
   },
@@ -77,7 +123,7 @@ const Projects = () => {
               <p className="text-gray-600 flex-grow">{project.description}</p>
               {/* row for tags */}
               <div className="flex flex-wrap gap-2">
-                {project.tags.map((tag) => (
+                {project.displayTags.map((tag) => (
                   <span key={tag} className="bg-gray-200 text-gray-800 px-2 py-1 rounded-md text-sm font-medium">
                     {tag}
                   </span>
