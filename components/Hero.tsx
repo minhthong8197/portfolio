@@ -6,7 +6,7 @@ const Hero = () => {
     <section id="home" className="w-full h-screen flex flex-col justify-center items-center text-center">
       <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight">Nguyen Minh Thong (Stephen)</h1>
       <p className="mt-4 text-xl sm:text-2xl text-gray-600">Full-stack Developer</p>
-      <p className="mt-6 max-w-2xl text-gray-500">Developing robust, end-to-end web applications with a focus on clean architecture and high-quality code.</p>
+      <p className="mt-6 max-w-3xl text-gray-500">I build software like a digital gardener: with care, precision, and a focus on long-term growth.</p>
       <div className="mt-8 flex flex-wrap justify-center gap-4">
         <a
           href="https://www.linkedin.com/in/thong-stephen-nguyen/"

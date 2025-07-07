@@ -11,12 +11,13 @@ const About = () => {
         </div>
         <div className="text-lg text-gray-700 space-y-4 text-center md:text-left">
           <p>
-            {`I'm a Full-stack Developer with over 5 years of experience, specializing in the JavaScript/TypeScript ecosystem. My passion lies in building
-            high-performance applications with a strong focus on code quality and user experience.`}
+            {`I'm`} a Full-stack Developer with over 5 years of experience, specializing in the JavaScript/TypeScript ecosystem. My passion lies in building
+            high-performance applications with a strong focus on code quality and user experience.
           </p>
           <p>
-            With a keen eye for detail, I enjoy identifying and resolving potential issues and technical debt, ensuring that the products I build are both
-            stable and scalable. I love to dive deep into a product to deliver long-term value.
+            This philosophy is why I think of myself as a digital gardener. While some chase fleeting trends, I find fulfillment in cultivating clean code,
+            nurturing ideas, and watching them blossom into stable, scalable products. In a fast-paced world, this creative, detail-oriented process is what
+            grounds my work and allows me to deliver long-term value.
           </p>
         </div>
       </div>
