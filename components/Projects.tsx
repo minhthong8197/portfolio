@@ -87,16 +87,19 @@ export const projects: {
   },
   {
     name: "E-commerce Cross-platform App",
-    slug: "",
+    slug: "ecommerce-cross-platform-app",
+    storyTitle: "Building a Universal E-commerce App with Monorepo",
     description:
-      "As the sole developer, I spearheaded the creation of a universal e-commerce application. By architecting a monorepo with Tamagui and Solito, the project achieved maximum code sharing between web (Next.js) and mobile (React Native/Expo), significantly accelerating development time and ensuring brand consistency across platforms.",
+      "Spearheaded the research and development of a universal e-commerce application. By designing a monorepo architecture with Tamagui and Solito, I maximized code sharing between web (Next.js) and mobile (React Native/Expo), significantly accelerating development and ensuring consistent user experience.",
     tags: [
       "React Native",
       "Next.js",
       "Tamagui",
       "Monorepo",
       "Code Sharing",
+      "GraphQL",
       "Tailwind CSS",
+      "Formik",
       "Cross-platform Development",
       "E-commerce Development",
       "Mobile Development",
@@ -105,6 +108,8 @@ export const projects: {
     displayTags: ["React Native", "Next.js", "Tamagui", "Monorepo", "Code Sharing"],
     imageCard: "/project-monorepo-structure.jpg",
     imageStory: "/project-monorepo-structure.jpg",
+    seoDescription:
+      "Explore the technical journey of building a cross-platform e-commerce application using Next.js, React Native, Tamagui, and a monorepo approach for maximum code reuse.",
   },
 ];
 

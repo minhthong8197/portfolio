@@ -10,12 +10,14 @@ import { Metadata } from "next";
 import HTEcoStory from "../../../components/stories/HTEcoStory";
 import HISStory from "../../../components/stories/HISStory";
 import SteevyIndieStory from "../../../components/stories/SteevyIndieStory";
+import EcommerceCrossPlatformStory from "../../../components/stories/EcommerceCrossPlatformStory";
 
 // Map slug với component story tương ứng
 const storyComponents = {
   "hteco-data-toolkit": HTEcoStory,
   "his-scalable-microservices": HISStory,
   "steevy-indie-journey": SteevyIndieStory,
+  "ecommerce-cross-platform-app": EcommerceCrossPlatformStory,
 };
 
 // Hàm này giúp Next.js biết các slug có thể có để pre-render
