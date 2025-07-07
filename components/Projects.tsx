@@ -13,6 +13,7 @@ export const projects: {
   githubUrl?: string;
   slug?: string;
   storyTitle?: string;
+  seoDescription?: string;
 }[] = [
   {
     name: "Steevy Indie",
@@ -24,6 +25,7 @@ export const projects: {
     imageCard: "/project-steevy.jpg",
     imageStory: "/project-steevy-story.jpg",
     liveUrl: "https://steevyindie.com",
+    seoDescription: "Explore the development story of Steevy Indie, a unique online dot-to-dot puzzle game built with Next.js, React, and AI.",
   },
   {
     name: "HTEco",
@@ -35,6 +37,7 @@ export const projects: {
     imageCard: "/project-hteco.jpg",
     imageStory: "/project-hteco-story.jpg",
     liveUrl: "https://hteco.net",
+    seoDescription: "Read the case study of HTEco, a tool for Hattrick, demonstrating API modernization with Deno, Fresh, and robust data visualization.",
   },
   {
     name: "Hospital Information System (HIS)",
@@ -45,6 +48,8 @@ export const projects: {
     tags: ["Microservices", "NestJS", "React", "Team Leadership", "System Design"],
     imageCard: "/project-his-architecture.jpg",
     imageStory: "/project-his-story.jpg",
+    seoDescription:
+      "Deep dive into the architecture and challenges of building a high-volume Hospital Information System with Microservices, NestJS, and React.",
   },
   {
     name: "E-commerce Cross-platform App",

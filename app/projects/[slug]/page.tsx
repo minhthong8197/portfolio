@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { Metadata } from "next";
 
 // Giả sử bạn sẽ tạo các component story riêng
 import HTEcoStory from "../../../components/stories/HTEcoStory";
@@ -24,6 +25,44 @@ export async function generateStaticParams() {
     .map((p) => ({
       slug: p.slug,
     }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const project = projects.find((p) => p.slug === slug);
+
+  if (!project) {
+    return {};
+  }
+
+  const imageUrl = project.imageStory || project.imageCard;
+  const absoluteImageUrl = `${process.env.NEXT_PUBLIC_BASE_URL || "https://portfolio.steevyindie.com"}${imageUrl}`;
+
+  return {
+    title: project.storyTitle || `${project.name} | Project Story - Stephen Nguyen`,
+    description: project.seoDescription || project.description,
+    openGraph: {
+      title: project.storyTitle || `${project.name} | Project Story - Stephen Nguyen`,
+      description: project.seoDescription || project.description,
+      url: `${process.env.NEXT_PUBLIC_BASE_URL || "https://portfolio.steevyindie.com"}/projects/${slug}`, // Đảm bảo URL là tuyệt đối
+      siteName: "Stephen Nguyen's Portfolio",
+      images: [
+        {
+          url: absoluteImageUrl,
+          width: 1200,
+          height: 630,
+          alt: project.name,
+        },
+      ],
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: project.storyTitle || `${project.name} | Project Story - Stephen Nguyen`,
+      description: project.seoDescription || project.description,
+      images: [absoluteImageUrl],
+    },
+  };
 }
 
 export default async function ProjectStoryPage({ params }: { params: Promise<{ slug: string }> }) {
