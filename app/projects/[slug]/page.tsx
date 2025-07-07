@@ -1,16 +1,16 @@
 // app/projects/[slug]/page.tsx
-import { projects } from "../../../components/Projects";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { Metadata } from "next";
 
-// Giả sử bạn sẽ tạo các component story riêng
+import { projects } from "../../../data/project";
 import HTEcoStory from "../../../components/stories/HTEcoStory";
 import HISStory from "../../../components/stories/HISStory";
 import SteevyIndieStory from "../../../components/stories/SteevyIndieStory";
 import EcommerceCrossPlatformStory from "../../../components/stories/EcommerceCrossPlatformStory";
+import RealEstateDigitizationStory from "../../../components/stories/RealEstateDigitizationStory";
 
 // Map slug với component story tương ứng
 const storyComponents = {
@@ -18,6 +18,7 @@ const storyComponents = {
   "his-scalable-microservices": HISStory,
   "steevy-indie-journey": SteevyIndieStory,
   "ecommerce-cross-platform-app": EcommerceCrossPlatformStory,
+  "real-estate-digitization": RealEstateDigitizationStory,
 };
 
 // Hàm này giúp Next.js biết các slug có thể có để pre-render
