@@ -62,23 +62,26 @@ const EcommerceCrossPlatformStory = () => {
 
       <h3>Key Learnings & Impact</h3>
       <p>
-        Though I transitioned to a new role before this project reached full production, the experience was profoundly impactful. I gained deep insights into
-        the complexities and immense benefits of true universal application development. This project was a testament to my ability to:
+        My primary contribution was architecting and delivering the <strong>foundational codebase and infrastructure</strong> for the {`company's`} new
+        universal app strategy. I successfully established a production-ready blueprint that empowered the team to build and scale efficiently across web and
+        mobile.
       </p>
+      <p>This project was a testament to my ability to:</p>
       <ul className="list-disc pl-5 mb-4 space-y-2">
         <li>
-          <strong>Research and Validate Cutting-Edge Technologies:</strong> Successfully identify, evaluate, and adopt a complex new tech stack.
+          <strong>Research and Validate Cutting-Edge Technologies:</strong> Successfully identified, evaluated, and adopted a complex new tech stack (Tamagui,
+          Solito, Monorepo).
         </li>
         <li>
-          <strong>Architect for Scalability and Reuse:</strong> Design a system that maximized code sharing and accelerated future development.
+          <strong>Architect for Scalability and Reuse:</strong> Designed a system that maximized code sharing and accelerated future development.
         </li>
         <li>
-          <strong>Implement Robust DevOps Practices:</strong> Set up automated deployment pipelines critical for rapid iteration.
+          <strong>Implement Robust DevOps Practices:</strong> Set up a fully automated CI/CD pipeline critical for rapid iteration and deployment.
         </li>
       </ul>
       <p>
-        This initiative laid critical groundwork, showcasing a path for the company to efficiently expand its digital presence across platforms with a unified
-        codebase.
+        Ultimately, this initiative laid the <strong>critical groundwork</strong> for the {`company's`} future. It provided a clear, scalable, and unified path
+        for expanding their digital presence across all platforms.
       </p>
     </>
   );

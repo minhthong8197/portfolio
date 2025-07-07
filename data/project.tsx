@@ -115,7 +115,7 @@ export const projects: {
     tags: ["React", "Redux", "Hapi.js", "PostgreSQL", "AWS S3", "Microservices", "Agile/Scrum", "Jira", "RESTful API", "Database Migration", "Code Review"],
     displayTags: ["React", "Redux", "Hapi.js", "PostgreSQL", "AWS S3"],
     imageCard: "/project-real-estate.jpg",
-    imageStory: "/project-real-estate-story.jpg",
+    imageStory: "/project-real-estate-architecture.jpg",
     seoDescription:
       "Explore the case study of digitizing a real estate investment firm. This story details my experience building a microservices platform with React, Redux, Hapi.js, and PostgreSQL in a professional Agile/Scrum environment.",
   },
