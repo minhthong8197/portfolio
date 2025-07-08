@@ -16,7 +16,7 @@ export const projects: {
     slug: "steevy-indie-journey",
     storyTitle: "Steevy Indie: A Solo Founder's Journey in Creative Coding & AI",
     description:
-      "Independently managed the entire product lifecycle, from initial concept of a relaxing puzzle game to a live application with 90+ puzzles. I built a custom SVG puzzle-generation tool and leveraged AI for development assistance and content creation. The project was deployed on Cloudflare Pages, with a strong focus on SEO and user analytics integration.",
+      "As the solo founder, I single-handedly took a relaxing puzzle game from concept to a complete, live product. This involved building a custom puzzle-generation engine and engineering a high-performance graphics system. The project showcases my ability to manage the entire product lifecycle and leverage AI as a creative partner while applying deep expertise to solve complex challenges.",
     tags: ["Next.js", "React", "Tailwind CSS", "Vibe Coding", "SEO", "UI/UX Design", "Framer Motion", "SVG", "Web Audio API", "Deployment"],
     displayTags: ["Next.js", "React", "Tailwind CSS", "AI"],
     imageCard: "/project-steevy.jpg",
@@ -29,7 +29,7 @@ export const projects: {
     slug: "hteco-data-toolkit",
     storyTitle: "HTEco: A Data Toolkit for Hattrick, Evolved Over Two Years",
     description:
-      "A specialized tool for the Hattrick gaming community. The core challenge was building a modern middleware in Deno to transform a legacy SOAP/XML API into a clean, usable data source. The frontend, built with Fresh/Preact and various UI libraries, served as an R&D project to master new technologies and advanced data visualization.",
+      "To serve a gaming community, I built a data analysis tool that interfaces with a legacy SOAP/XML API. I engineered a modern adapter layer to transform the data, re-architected the entire application to Deno/Fresh for improved performance, and implemented an intelligent pre-fetching strategy. This delivered a seamless user experience, turning the project into a stable, live product.",
     tags: [
       "Deno",
       "Fresh",
@@ -58,7 +58,7 @@ export const projects: {
     slug: "his-scalable-microservices",
     storyTitle: "HIS: Architecting a Scalable Microservices System for Healthcare",
     description:
-      "Co-architected and developed the foundational microservices codebase for a large-scale Hospital Information System. I led the development of the critical Authentication & Authorization module. This robust and scalable architecture became the successful blueprint for subsequent major company projects, including school management and e-commerce platforms.",
+      "As a founding engineer and later team lead, I co-architected and built a robust Hospital Information System (HIS) from the ground up using a microservices architecture. The solution proved its resilience by successfully processing thousands of daily COVID-19 tests at peak times, and its architecture became the official blueprint for all subsequent large-scale company projects.",
     tags: [
       "Microservices",
       "System Design",
@@ -85,7 +85,7 @@ export const projects: {
     slug: "ecommerce-cross-platform-app",
     storyTitle: "Building a Universal E-commerce App with Monorepo",
     description:
-      "Spearheaded the research and development of a universal e-commerce application. By designing a monorepo architecture with Tamagui and Solito, I maximized code sharing between web (Next.js) and mobile (React Native/Expo), significantly accelerating development and ensuring consistent user experience.",
+      "Tasked with rapidly extending an e-commerce platform to mobile, I researched and pioneered the implementation of a universal app architecture. By leveraging a monorepo with Next.js, Expo, and Tamagui, I architected the solution for maximum code sharing and established an automated CI/CD pipeline, laying a scalable foundation for future cross-platform development.",
     tags: [
       "React Native",
       "Next.js",
@@ -111,7 +111,7 @@ export const projects: {
     slug: "real-estate-digitization",
     storyTitle: "Digitizing Real Estate Investment: A Deep Dive into a New Tech Stack & Agile Process",
     description:
-      "As an outsourced developer, I helped a real estate investment firm transition their paper-based operations to a modern digital platform. I developed features across a new tech stack (React, Redux, Hapi.js, PostgreSQL) and operated within a structured Scrum environment to build a robust, dual-application system.",
+      "I helped a real estate investment firm digitize their entire paper-based operational workflow. I quickly adapted to a new tech stack, including Hapi.js and PostgreSQL, to develop a secure, dual-application microservices system for both internal staff and external partners. This project demonstrated my ability to deliver value rapidly while seamlessly integrating into a highly structured Agile/Scrum environment.",
     tags: ["React", "Redux", "Hapi.js", "PostgreSQL", "AWS S3", "Microservices", "Agile/Scrum", "Jira", "RESTful API", "Database Migration", "Code Review"],
     displayTags: ["React", "Redux", "Hapi.js", "PostgreSQL", "AWS S3"],
     imageCard: "/project-real-estate.jpg",
