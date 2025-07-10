@@ -1,11 +1,25 @@
 // components/Experience.tsx
+
 import { CheckCircle2 } from "lucide-react";
 
 const experience = [
   {
+    company: "Personal Projects (Founder & Solo Developer)",
+    role: "Independent Product Developer",
+    period: "October 2024 - Present",
+    intro:
+      "After 5+ years of dedicated professional growth, I took a planned career break to pursue independent product development. This period was focused on building full-stack applications from concept to market, exploring human-AI collaboration, and deepening my expertise in modern web technologies.",
+    achievements: [
+      "Launched Steevy Indie: A mindfulness-focused puzzle game, single-handedly managing the entire product lifecycle from ideation, UI/UX design, and development to deployment, SEO, and marketing.",
+      "Re-architected HTEco: Migrated a full-stack application from a traditional React/NestJS stack to a modern Deno/Fresh architecture, solving complex legacy API integration challenges.",
+      "Mastered End-to-End Product Ownership: Gained hands-on experience in market research, product strategy, user analytics, and building automated content creation tools.",
+      "Deepened Technical Skills: Advanced my proficiency in React, Next.js, Deno, system design, and building high-performance, user-centric interfaces.",
+    ],
+  },
+  {
     company: "Sunny Development",
     role: "Full-stack Developer",
-    period: "2019 - 2024",
+    period: "Mar 2019 - Oct 2024 (5 years 7 months)",
     intro:
       "Played a key role in the company's growth over 5+ years, contributing to a wide range of internal and client-facing projects. My responsibilities evolved to include system architecture, team leadership, and pioneering new technologies.",
     achievements: [
