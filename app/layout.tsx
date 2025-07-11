@@ -3,6 +3,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.className} bg-gray-50 text-gray-900 antialiased`}>{children}</body>
+      <body className={`${inter.className} bg-gray-50 text-gray-900 antialiased`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
